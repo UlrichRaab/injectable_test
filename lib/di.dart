@@ -2,7 +2,7 @@ import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 
 import 'data.dart';
-import 'di.iconfig.dart';
+import 'di.config.dart';
 
 @injectableInit
 Future<bool> initDependencyInjection() async {
